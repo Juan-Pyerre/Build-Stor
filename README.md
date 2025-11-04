@@ -1,12 +1,13 @@
-# Repositorio-Teste-Atividade-1
+# BuildStore
 Atividade de extenção Dev+Git
 
 
-integrante líder 1: Juan Pyerre de Sousa Carvalho
-integrante 2: Eduardo Gritten dos Santos Spohr
-integrante 3: Luan Enrico Santana Peça
-integrante 4: Miguel Felipe Gazola 
-integrante 5: Pedro Paulo Rodrigues Mardegam
+integrante líder 1: Juan Pyerre de Sousa Carvalho <br>
+integrante 2: Eduardo Gritten dos Santos Spohr<br>
+integrante 3: Luan Enrico Santana Peça<br>
+integrante 4: Miguel Felipe Gazola <br>
+integrante 5: Pedro Paulo Rodrigues Mardegam<br>
 
-Tecnologias utilizadas:
-Tipo de licença: uso livre ou privado
+Tecnologias Utilizadas: ... <br>
+
+Tipo de licença: Privado
