@@ -34,3 +34,13 @@ body{
     width: 100%;
     gap: 20px;
 }
+.product{
+    padding: 30px 30px 60px 30px;
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    color: rgb(0, 0, 41);
+}
+.product:hover{
+    transform: translateY(-10px);
+     box-shadow: 0 10px 0px rgb(255, 217, 0); 
