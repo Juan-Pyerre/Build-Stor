@@ -27,3 +27,10 @@ body{
 .main-title img{
     height: 150px;
 }
+.products-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 100%;
+    gap: 20px;
+}
