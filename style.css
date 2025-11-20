@@ -44,3 +44,22 @@ body{
 .product:hover{
     transform: translateY(-10px);
      box-shadow: 0 10px 0px rgb(255, 217, 0); 
+}
+.image{
+    height: 300px;
+    border-radius: 12px;
+}
+.product img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product h3{
+    font-size: 25px;
+}
+.product a{
+    margin-top: -20px;
+    margin-left: 2px;
+    text-decoration: none;
+    color: rgb(0, 0, 41);
+}
