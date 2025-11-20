@@ -1,0 +1,10 @@
+body{
+    margin: 40px;
+    background-color: rgb(0, 0, 41);
+    font-family: "Outfit", sans-serif;
+    color: white;
+}
+
+.section{
+    margin: 60px 0;
+}
