@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Login - Loja de Construção</title>
+    <title>Login</title>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
@@ -10,15 +10,24 @@
 <div class="login-container">
     <h2>Login</h2>
 
+    <input type="text" id="user" placeholder="usuario">
     <input type="email" id="email" placeholder="Email">
     <input type="password" id="senha" placeholder="Senha">
 
-    <button>Entrar</button>
+    <button onclick="fazerLogin()">Entrar</button>
+
+    <!-- Novo botão -->
+    <button onclick="window.location.href='index.html'" class="voltar-btn">
+        Voltar para a página inicial
+    </button>
 
     <p id="mensagem" class="error"></p>
 </div>
 
-
+<script src="login.js"></script>
 
 </body>
 </html>
+
+
+
