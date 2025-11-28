@@ -63,3 +63,18 @@ body{
     text-decoration: none;
     color: rgb(0, 0, 41);
 }
+
+/* Botão de Login no canto superior direito */
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+}
+
