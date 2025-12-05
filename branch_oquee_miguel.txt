@@ -1,1 +1,6 @@
-Pense em uma arvore, ela tem um tronco e ela tem galhos. Todos os galhos tem origem no tronco que serve de base para eles. Nessa analogia a branch main seria o tronco, a estrutura básica de tudo, e os galhos serião as branchs individuais de cada membro da equipe, todas se baseiam na main mas são diferentes onde é necessária. agora um merge é quando você quer fazer com que as suas alterações se tornem parte da base, então ela deixa de ser uma parte isolada e se torna a base para as outras.
+Pense em um jogo, nesse jogo você pode salvar o seu progreso em um slot de salvamento. 
+Digamos que você quer testar algo no jogo mas não sabe se vai dar certo ou não, então antes 
+de fazer o teste você salva em um novo slot de salvamento, agora você pode testar o que quiser e 
+se der certo você pode juntar o salvamento temporario ao principal. nessa analogia o salvamento 
+original seria o main e o salvamento de teste seria a branch criada, e o ato de juntar os 
+dois seria o merge.
