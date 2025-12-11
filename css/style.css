@@ -108,3 +108,15 @@ body{
     text-decoration: none;
     color: rgb(0, 0, 41);
 }
+
+.carrinho a svg{
+     color: darkgoldenrod;
+     text-decoration: none;
+
+}
+
+.carrinho a {
+    position:absolute;
+    right: 40px;
+    top: 30px;
+}
