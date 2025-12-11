@@ -1,0 +1,1 @@
+Uma branch é como uma cópia paralela de um projeto, onde você pode testar ideias sem mexer no original. Um merge é juntar essas mudanças de volta ao projeto principal, unindo tudo em um só lugar para que o trabalho fique completo e atualizado.

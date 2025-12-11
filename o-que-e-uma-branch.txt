@@ -1,0 +1,7 @@
+Branch, traduzida literalmente, significa galho. Se tratamos o código
+base como uma raíz, as alterações feitas a partir dessa base são os
+branches. Diferentemente de alterações direto na base, no entanto,
+branches precisam ter um "merge" autorizado para as alterações realizadas
+neles efetivamente serem integradas ao código principal. Isso permite que
+programadores desenvolvam funcionalidades e as submetam para avaliação
+antes de serem implementadas ao sistema, diminuindo risco de erros.
