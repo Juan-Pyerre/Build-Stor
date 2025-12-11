@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1C1C1C;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container principal */
+.carousel {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  border: 3px solid #FFD700;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+/* Imagens */
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Botões de navegação */
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #FFC107;
+  border: none;
+  color: #1C1C1C;
+  font-size: 2rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FFD700;
+}
+
+.prev {
+  left: 15px;
+}
+
+.next {
+  right: 15px;
+}
+
+/* Indicadores */
+.indicators {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.indicators span {
+  width: 12px;
+  height: 12px;
+  background-color: #A9A9A9;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.indicators .active {
+  background-color: #FFD700;
+}
