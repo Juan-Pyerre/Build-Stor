@@ -1,0 +1,6 @@
+Uma “branch” é como criar um caminho separado para trabalhar em algo sem
+mexer no que já está pronto. É como fazer uma cópia de uma história para
+testar novas ideias sem alterar o original. Já o “merge” é quando
+juntamos esse caminho de volta ao principal, combinando o que foi feito
+com o que já existia. Assim, todas as melhorias entram em um único
+lugar, de forma organizada e sem confusão.
