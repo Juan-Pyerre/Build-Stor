@@ -1,0 +1,6 @@
+Pense em um jogo, nesse jogo você pode salvar o seu progreso em um slot de salvamento. 
+Digamos que você quer testar algo no jogo mas não sabe se vai dar certo ou não, então antes 
+de fazer o teste você salva em um novo slot de salvamento, agora você pode testar o que quiser e 
+se der certo você pode juntar o salvamento temporario ao principal. nessa analogia o salvamento 
+original seria o main e o salvamento de teste seria a branch criada, e o ato de juntar os 
+dois seria o merge.
