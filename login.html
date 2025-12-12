@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/login.css">
   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-</body>
+<div class="login-container">
+    <h2>Login</h2>
 
+    <input type="text" id="user" placeholder="usuario">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="senha" placeholder="Senha">
+
+    <button onclick="fazerLogin()">Entrar</button>
+
+    <!-- Novo botão -->
+    <button onclick="window.location.href='index.html'" class="voltar-btn">
+        Voltar para a página inicial
+    </button>
+
+    <p id="mensagem" class="error"></p>
+</div>
+
+<script src="js/login.js"></script>
+    
+</body>
 </html>
