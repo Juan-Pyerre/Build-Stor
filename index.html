@@ -78,6 +78,19 @@
 
         </div>
     </div>
+     <div id="rodape"></div>
+        <script>
+        function loadComponent(url, elementId) {
+            return fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                })
+                .catch(error => console.error('Erro ao carregar o componente:', error));
+        }
+
+        loadComponent('rodape.html', 'rodape');
+        </script>
 </body>
 
 </html>
