@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Configurações básicas de codificação e responsividade -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página -->
+    <title>Build Store</title>
+
+    <!-- Importação do CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="carrinho.css">
+    <!-- Importação da fonte Outfit do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <script>
+        function loadComponent(url, elementId) {
+            return fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                })
+                .catch(error => console.error('Erro ao carregar o componente:', error));
+        }
+
+        loadComponent('rodape.html', 'rodape');
+        loadComponent('navbar.html', 'navbar');
+    </script>
+</body>
+  
+<script src="carrinho.js"></script>
+
+</html>

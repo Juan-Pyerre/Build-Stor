@@ -1,0 +1,40 @@
+body {
+    margin: 40px;
+    background: linear-gradient(135deg, rgb(0, 0, 41) 0%, rgb(0, 0, 61) 100%);
+    font-family: "Outfit", sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+
+.back-button {
+    background-color: rgb(255, 217, 0);
+    color: rgb(0, 0, 41);
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: rgb(255, 255, 0);
+}
+
+.footer-section {
+    padding: 30px 30px 60px 30px;
+    background-color: white;
+    width: 80%;
+    max-width: 500px;
+    color: rgb(0, 0, 41);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.footer-section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 0px rgb(255, 217, 0);
+}
+

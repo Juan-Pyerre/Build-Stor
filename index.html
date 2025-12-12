@@ -10,7 +10,7 @@
     <title>Build Store</title>
 
     <!-- Importação do CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Importação da fonte Outfit do Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,10 +19,7 @@
 </head>
 
 <body>
-
-    <!-- Botão de login -->
-    <a href="login.html" class="login-button">Login</a>
-
+    <div id="navbar"></div>
 
     <!-- Seção de título principal -->
     <div class="section">
@@ -37,12 +34,20 @@
         <div class="products-section">
 
             <!-- Produto 1: Makita -->
+          
             <div class="product">
                 <div class="image">
                     <img src="imgs/makita.jpg" alt="makita">
                 </div>
                 <h3>Makita</h3>
-                <a href="produto-makita.html">Mais Detalhes &#8594;</a>
+                <a href="products/produto-makita.html">Mais Detalhes &#8594;</a>
+                <br>
+                <button onclick="addCarrinho('Makita')"> 
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                </button>
             </div>
 
             <!-- Produto 2: Betoneira -->
@@ -51,7 +56,14 @@
                     <img src="imgs/betoneira.png" alt="betoneira">
                 </div>
                 <h3>Betoneira</h3>
-                <a href="produto-betoneira.html">Mais Detalhes &#8594;</a>
+                <a href="products/produto-betoneira.html">Mais Detalhes &#8594;</a>
+                <br>
+                <button onclick="addCarrinho('Betoneira')"> 
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                </button>
             </div>
 
             <!-- Produto 3: Chave de Fenda -->
@@ -60,7 +72,14 @@
                     <img src="imgs/chaveFenda.png" alt="chave de fenda">
                 </div>
                 <h3>Chave de Fenda</h3>
-                <a href="produto-chaveFenda.html">Mais Detalhes &#8594;</a>
+                <a href="products/produto-chaveFenda.html">Mais Detalhes &#8594;</a>
+                <br>
+                <button onclick="addCarrinho('Chave de Fenda')"> 
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                </button>
             </div>
 
             <!-- Produto 4: Parafusadeira -->
@@ -69,7 +88,14 @@
                     <img src="imgs/parafusadeira.png" alt="parafusadeira">
                 </div>
                 <h3>Parafusadeira</h3>
-                <a href="produto-parafusadeira.html">Mais Detalhes &#8594;</a>
+                <a href="products/produto-parafusadeira.html">Mais Detalhes &#8594;</a>
+                <br>
+                <button onclick="addCarrinho('Parafusadeira')"> 
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                </button>
             </div>
 
             <!-- Produto 5: Lixadeira -->
@@ -78,11 +104,30 @@
                     <img src="imgs/lixadeira.png" alt="lixadeira">
                 </div>
                 <h3>Lixadeira com Discos Diamantados</h3>
-                <a href="produto-lixadeira.html">Mais Detalhes &#8594;</a>
+                <a href="products/produto-lixadeira.html">Mais Detalhes &#8594;</a>
+                <br>
+                <button onclick="addCarrinho('Lixadeira')"> 
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                </button>
             </div>
 
         </div>
     </div>
+
+    <script>
+        function loadComponent(url, elementId) {
+            return fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                })
+                .catch(error => console.error('Erro ao carregar o componente:', error));
+        }
+        loadComponent('navbar.html', 'navbar');
+    </script>
 </body>
 
 </html>
