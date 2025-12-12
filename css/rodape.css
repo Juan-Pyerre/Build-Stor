@@ -1,10 +1,7 @@
 body {
-    margin: 40px;
     background: linear-gradient(135deg, rgb(0, 0, 41) 0%, rgb(0, 0, 61) 100%);
     font-family: "Outfit", sans-serif;
     color: white;
-    text-align: center;
-    
 }
 
 .back-button {
@@ -38,3 +35,8 @@ body {
     box-shadow: 0 10px 0px rgb(255, 217, 0);
 }
 
+.footer-content{
+    display: flex;
+    margin: 40px;
+    gap: 40px;
+}

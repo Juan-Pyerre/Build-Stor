@@ -9,7 +9,6 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #1C1C1C;
   color: #FFFFFF;
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -24,6 +23,7 @@ body {
   border: 3px solid #FFD700;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+  justify-self: center;
 }
 
 /* Imagens */
@@ -39,7 +39,7 @@ body {
 }
 
 /* Botões de navegação */
-button {
+.carousel button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -53,7 +53,7 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.carousel button:hover {
   background-color: #FFD700;
 }
 
