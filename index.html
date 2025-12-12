@@ -37,3 +37,32 @@
         <button class="prev">⟨</button>
         <button class="next">⟩</button>
     </div>
+
+        <!-- Produtos -->
+    <div class="section">
+        <div class="products-section">
+            <!-- Aqui ficam os blocos de produtos (Makita, Betoneira, etc.) -->
+        </div>
+    </div>
+
+    <div id="rodape"></div>
+
+    <!-- Scripts -->
+    <script src="js/carrinho.js"></script>
+    <script src="js/carrossel.js"></script>
+    <script>
+        function loadComponent(url, elementId) {
+            return fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                })
+                .catch(error => console.error('Erro ao carregar o componente:', error));
+        }
+
+        loadComponent('rodape.html', 'rodape');
+        loadComponent('navbar.html', 'navbar');
+    </script>
+</body>
+</html>
+
